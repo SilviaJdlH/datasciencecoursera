@@ -25,9 +25,9 @@ Objectives
 
 Steps Before running the script
 -----------------
- Download the data: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip  
- Unzip the downloaded file.
- Place the script in where is located the directory  "./.../***UCI HAR Dataset***" you've extracted.
+1. Download the data: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip  
+2. Unzip the downloaded file.
+3. Place the script in where is located the directory  "./.../***UCI HAR Dataset***" you've extracted.
 
 run_analysis.R
 -----------------
