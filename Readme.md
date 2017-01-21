@@ -23,13 +23,14 @@ Objectives
 4. Appropriately labels the data set with descriptive activity names. 
 5. Creates a second, independent tidy data set with the average of each variable for each activity and each subject. 
 
-run_analysis.R
+Steps Before running the script
 -----------------
-*Steps Before running the script
  Download the data: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip  
  Unzip the downloaded file.
- Place the script in the "./.../UCI HAR Dataset"
- 
+ Place the script in where is located the directory  "./.../***UCI HAR Dataset***" you've extracted.
+
+run_analysis.R
+-----------------
 1. It loads the **train** and **test** data sets and appends the two datasets into one data frame. This is done using `rbind`.
 2. The three data sets, **Features**, **Subject** and **Activity**, are merged in **data** data frame.
 3. It extracts just the *mean* and *standard deviation* the **features** data set by usgin 'grep', and subsets it into *Data* data frame with *Subject* and *Activity* variables at the end. 
